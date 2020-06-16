@@ -18,7 +18,7 @@ public class Main {
 //		doRequest("https://cc.the-morpheus.de/challenges/1/");
 		String res = doGETRequest("https://cc.the-morpheus.de/challenges/1/");
 		System.out.println(res);
-		doPOSTRequest("https://cc.the-morpheus.de/solutions/1/", res);
+//		doPOSTRequest("https://cc.the-morpheus.de/solutions/1/", res);
 	}
 	
 	private static String doGETRequest(String adress) {
